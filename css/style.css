@@ -1,0 +1,672 @@
+/* HDNS Pro instruments — kiểu trang danh mục sản phẩm (tham chiếu site B2B Trung Quốc / ASP.NET) */
+
+:root {
+  --red: #b30000;
+  --red-dark: #8a0000;
+  --nav-bg: #333333;
+  --nav-hover: #000;
+  --border: #d9d9d9;
+  --bg-page: #f0f0f0;
+  --bg-white: #fff;
+  --bg-sidebar: #f7f7f7;
+  --text: #333;
+  --muted: #666;
+  --link: #0066b3;
+  --font: "Be Vietnam Pro", Tahoma, Arial, sans-serif;
+  --max: 1100px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg-page);
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.container {
+  width: min(var(--max), 100% - 24px);
+  margin-inline: auto;
+}
+
+/* Top bar — dải đỏ kiểu site công nghiệp */
+.top-bar {
+  background: linear-gradient(180deg, var(--red) 0%, var(--red-dark) 100%);
+  color: #fff;
+  font-size: 13px;
+  border-bottom: 2px solid #5c0000;
+}
+
+.top-bar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+  min-height: 40px;
+  padding: 6px 0;
+}
+
+.top-welcome {
+  margin: 0;
+}
+
+.top-welcome strong {
+  font-weight: 700;
+}
+
+.top-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 6px;
+}
+
+.lang-btn {
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 6px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.lang-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.lang-btn[aria-pressed="true"] {
+  background: #fff;
+  color: var(--red-dark);
+  border-color: #fff;
+}
+
+.top-phone {
+  color: #fff;
+  font-weight: 600;
+}
+
+.top-phone:hover {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+.top-zalo-label {
+  opacity: 0.95;
+}
+
+.top-zalo-qr {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #fff;
+  padding: 2px;
+}
+
+/* Header */
+.site-header {
+  background: var(--bg-white);
+  border-bottom: 1px solid var(--border);
+}
+
+.header-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px 18px;
+  color: inherit;
+  flex: 1 1 auto;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.brand:hover {
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 4px;
+  background: linear-gradient(145deg, #c62828 0%, #8b0000 100%);
+  border: 1px solid #900;
+  flex-shrink: 0;
+}
+
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  flex: 1 1 12rem;
+}
+
+.brand-title {
+  font-size: clamp(1.05rem, 2.5vw, 1.35rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--red-dark);
+  line-height: 1.2;
+}
+
+.brand-tagline {
+  font-size: clamp(0.75rem, 1.8vw, 0.875rem);
+  font-weight: 600;
+  color: #444;
+  line-height: 1.4;
+  max-width: 26rem;
+}
+
+/* Banner — carousel kiểu trang gốc */
+.site-banner {
+  background: #111;
+  border-bottom: 3px solid var(--red-dark);
+}
+
+.banner-viewport {
+  position: relative;
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  overflow: hidden;
+  /* Ảnh banner thực tế: ~1916x500 => tỷ lệ ~3.832:1 */
+  aspect-ratio: 1916 / 500;
+  max-height: 380px;
+}
+
+.banner-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.45s ease;
+  will-change: transform;
+}
+
+.banner-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-slide img {
+  width: 100%;
+  height: 100%;
+  /* Không cắt phần trên/dưới khi ảnh có tỷ lệ khác nhau */
+  object-fit: contain;
+  background: #111;
+  display: block;
+}
+
+.banner-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 56px;
+  border: none;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.banner-nav:hover {
+  background: rgba(179, 0, 0, 0.85);
+}
+
+.banner-nav:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.banner-prev {
+  left: 8px;
+}
+
+.banner-next {
+  right: 8px;
+}
+
+.banner-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.banner-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.banner-dot[aria-current="true"] {
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  .banner-viewport {
+    aspect-ratio: 1916 / 500;
+    max-height: 260px;
+  }
+
+  .banner-nav {
+    width: 36px;
+    height: 48px;
+    font-size: 22px;
+  }
+}
+
+.header-hotline {
+  flex-shrink: 0;
+  text-align: right;
+  padding: 8px 16px;
+  border: 2px solid var(--red);
+  border-radius: 4px;
+  background: #fffaf0;
+}
+
+.header-hotline-label {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.header-hotline a {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--red);
+}
+
+.header-hotline a:hover {
+  text-decoration: none;
+  color: var(--red-dark);
+}
+
+/* Main nav — thanh đen */
+.main-nav {
+  background: var(--nav-bg);
+  border-top: 1px solid #000;
+}
+
+.main-nav-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.main-nav-inner a {
+  display: block;
+  padding: 12px 20px;
+  color: #eee;
+  font-weight: 600;
+  font-size: 14px;
+  border-right: 1px solid #444;
+}
+
+.main-nav-inner a:hover {
+  background: var(--nav-hover);
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav-inner a.is-active {
+  background: var(--red);
+  color: #fff;
+}
+
+/* Page */
+.page-frame {
+  background: var(--bg-white);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 16px 20px 28px;
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.breadcrumb {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.bc-sep {
+  margin: 0 6px;
+  color: #999;
+}
+
+.bc-current {
+  color: var(--text);
+}
+
+/* Catalog layout */
+.layout-catalog {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.catalog-sidebar {
+  background: var(--bg-sidebar);
+  border: 1px solid var(--border);
+}
+
+.sidebar-title {
+  background: linear-gradient(180deg, #e8e8e8 0%, #d8d8d8 100%);
+  padding: 10px 12px;
+  font-weight: 700;
+  font-size: 14px;
+  border-bottom: 1px solid var(--border);
+  color: var(--red-dark);
+}
+
+.sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-list li {
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar-list a {
+  display: block;
+  padding: 10px 12px;
+  color: var(--text);
+  font-size: 13px;
+}
+
+.sidebar-list a:hover {
+  background: #fff;
+  color: var(--link);
+  text-decoration: none;
+}
+
+.catalog-main {
+  min-width: 0;
+}
+
+.catalog-head {
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.catalog-head h1 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--red-dark);
+}
+
+.catalog-intro {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.product-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.product-cell {
+  border: 1px solid var(--border);
+  padding: 12px;
+  background: #fafafa;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.product-cell:hover {
+  border-color: #bbb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.product-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: 1px solid var(--border);
+  background: #f4f4f4;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.product-thumb:hover {
+  text-decoration: none;
+}
+
+.product-thumb img {
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.product-ph {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(160deg, #eceff4 0%, #d0d8e4 40%, #b8c4d4 100%);
+}
+
+.product-name {
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.product-name a {
+  color: var(--link);
+}
+
+.product-name a:hover {
+  color: var(--red);
+}
+
+.product-snippet {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+/* Intro + contact */
+.section-inline {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.section-inline h2 {
+  margin: 0 0 8px;
+  font-size: 17px;
+  color: var(--red-dark);
+}
+
+.section-inline p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.section-contact-block {
+  margin-top: 24px;
+  padding: 20px;
+  background: var(--bg-sidebar);
+  border: 1px solid var(--border);
+}
+
+.section-contact-block h2 {
+  margin: 0 0 16px;
+  font-size: 17px;
+  color: var(--red-dark);
+}
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.contact-label {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.contact-phone {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--red);
+}
+
+.contact-phone:hover {
+  text-decoration: none;
+  color: var(--red-dark);
+}
+
+.contact-zalo-img {
+  display: block;
+  border: 1px solid var(--border);
+  padding: 6px;
+  background: var(--bg-white);
+  border-radius: 4px;
+}
+
+.contact-hint {
+  margin: 16px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Footer */
+.site-footer {
+  background: var(--nav-bg);
+  color: #aaa;
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+.footer-inner {
+  text-align: center;
+}
+
+.footer-brand {
+  margin: 0 0 6px;
+  color: #ddd;
+}
+
+.footer-brand strong {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-copy {
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .layout-catalog {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-sidebar {
+    order: 1;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header-hotline a {
+    font-size: 17px;
+  }
+
+  .brand-title {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,145 @@
+/* Nội dung nhập từ trang gốc hdnskelly — bảng & ảnh */
+
+.product-nav-prevnext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.pn-link {
+  font-weight: 600;
+  color: var(--link);
+}
+
+.pn-link--next {
+  margin-left: auto;
+}
+
+.product-page-import {
+  overflow-x: auto;
+  font-family: var(--font, "Be Vietnam Pro", sans-serif);
+}
+
+.product-page-import .product_zhanshi table {
+  max-width: 100%;
+}
+
+.product-page-import .pro2 {
+  max-width: 100%;
+  height: auto;
+  max-height: 220px;
+  width: auto;
+}
+
+.product-page-import .pro3 {
+  max-width: 56px;
+  max-height: 48px;
+}
+
+.product-page-import .xiangxi {
+  margin-top: 24px;
+}
+
+.product-page-import .xiangxi h2 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  color: var(--red-dark);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 8px;
+}
+
+.product-page-import .xiangxi_con {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.product-page-import .xiangxi_con table {
+  width: 100% !important;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 13px;
+}
+
+.product-page-import .xiangxi_con td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  vertical-align: middle;
+}
+
+/* Bảng thông số RLD-550 / RLD-550B (product-122) */
+.product-page-import .spec-table-wrap {
+  margin: 12px 0 20px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.product-page-import table.spec-rld550 {
+  min-width: min(100%, 560px);
+  table-layout: fixed;
+}
+
+.product-page-import table.spec-rld550 th {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+}
+
+.product-page-import table.spec-rld550 thead th {
+  background: #e8e8e8;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.product-page-import table.spec-rld550 td:first-child {
+  width: 26%;
+  min-width: 120px;
+  font-weight: 500;
+  background: #fafafa;
+  vertical-align: top;
+}
+
+.product-page-import table.spec-rld550 td {
+  text-align: left;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.product-page-import table.spec-rld550 .spec-rld550-long {
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.product-page-import .xiangxi_con p {
+  margin: 0 0 12px;
+}
+
+/* Ensure imported detail images always show fully */
+.product-page-import .xiangxi_con img,
+.product-page-import .product_zhanshi img {
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain;
+  display: inline-block;
+}
+
+.product-page-import dl {
+  margin: 0;
+  padding-left: 8px;
+}
+
+.product-page-import dt {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-page-import dd {
+  margin: 0 0 8px;
+  font-size: 13px;
+  line-height: 1.5;
+}
