@@ -642,6 +642,204 @@ img {
   margin: 0;
 }
 
+/* Inquiry assistant */
+.iq-toggle {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 1000;
+  border: none;
+  border-radius: 999px;
+  background: var(--red);
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 16px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.iq-toggle:hover {
+  background: var(--red-dark);
+}
+
+.iq-panel {
+  position: fixed;
+  right: 16px;
+  bottom: 68px;
+  z-index: 1000;
+  width: min(360px, calc(100vw - 24px));
+  max-height: min(76vh, 620px);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.iq-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f8f8;
+  border-bottom: 1px solid var(--border);
+  padding: 10px 12px;
+}
+
+.iq-close {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  color: #666;
+}
+
+.iq-messages {
+  padding: 10px;
+  overflow-y: auto;
+  background: #fcfcfc;
+  flex: 1;
+}
+
+.iq-msg {
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.iq-msg-user {
+  justify-content: flex-end;
+}
+
+.iq-msg-bot {
+  justify-content: flex-start;
+}
+
+.iq-bubble {
+  max-width: 88%;
+  padding: 8px 10px;
+  border-radius: 9px;
+  line-height: 1.45;
+  font-size: 13px;
+  white-space: pre-wrap;
+}
+
+.iq-msg-user .iq-bubble {
+  background: #e9f3ff;
+  border: 1px solid #c9ddf7;
+}
+
+.iq-msg-bot .iq-bubble {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+}
+
+.iq-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 10px 4px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.iq-chip {
+  border: 1px solid #d6d6d6;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 12px;
+  padding: 4px 9px;
+  cursor: pointer;
+}
+
+.iq-chip:hover {
+  background: #fafafa;
+}
+
+.iq-form {
+  display: flex;
+  gap: 6px;
+  padding: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.iq-form input {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.iq-form button {
+  border: none;
+  border-radius: 6px;
+  background: var(--red);
+  color: #fff;
+  padding: 8px 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.iq-actions {
+  display: flex;
+  gap: 8px;
+  padding: 0 10px 10px;
+}
+
+.iq-action {
+  flex: 1;
+  border-radius: 6px;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.iq-action-ghost {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #444;
+}
+
+.iq-action-primary {
+  border: 1px solid var(--red);
+  background: #fff3f3;
+  color: var(--red-dark);
+}
+
+.iq-action:hover {
+  filter: brightness(0.98);
+}
+
+.iq-contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+  padding: 0 10px 10px;
+}
+
+.iq-contact input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 7px 9px;
+  font-size: 12px;
+}
+
+.iq-admin-tools {
+  padding: 0 10px 10px;
+}
+
+.iq-admin-tools .iq-action {
+  width: 100%;
+}
+
+.iq-footnote {
+  margin: 0;
+  padding: 0 10px 10px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .layout-catalog {
@@ -668,5 +866,16 @@ img {
 
   .brand-title {
     font-size: 18px;
+  }
+
+  .iq-panel {
+    right: 8px;
+    bottom: 58px;
+    width: calc(100vw - 16px);
+  }
+
+  .iq-toggle {
+    right: 8px;
+    bottom: 8px;
   }
 }
