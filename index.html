@@ -168,6 +168,40 @@
     </div>
   </footer>
 
+  <button id="iqToggle" class="iq-toggle" type="button" aria-expanded="false">
+    <span data-i18n="bot.toggle">Tu van nhanh</span>
+  </button>
+  <section id="iqPanel" class="iq-panel" hidden>
+    <div class="iq-head">
+      <strong data-i18n="bot.title">Tro ly hoi dap san pham</strong>
+      <button id="iqClose" class="iq-close" type="button" aria-label="Close">x</button>
+    </div>
+    <div id="iqMessages" class="iq-messages" aria-live="polite"></div>
+    <div id="iqChips" class="iq-chips">
+      <button type="button" class="iq-chip" data-q="Bao gia model SVD-430TS" data-i18n="bot.chipQuote430">Bao gia SVD-430TS</button>
+      <button type="button" class="iq-chip" data-q="Thong so SVD-452TS" data-i18n="bot.chipSpec452">Thong so SVD-452TS</button>
+      <button type="button" class="iq-chip" data-q="Thoi gian giao hang" data-i18n="bot.chipLeadTime">Thoi gian giao hang</button>
+      <button type="button" class="iq-chip" data-q="Chinh sach bao hanh" data-i18n="bot.chipWarranty">Chinh sach bao hanh</button>
+    </div>
+    <form id="iqForm" class="iq-form">
+      <input id="iqInput" type="text" autocomplete="off" data-i18n-placeholder="bot.placeholder" placeholder="Nhap cau hoi ve model, thong so, gia..." />
+      <button type="submit" data-i18n="bot.send">Gui</button>
+    </form>
+    <div class="iq-actions">
+      <button id="iqClear" type="button" class="iq-action iq-action-ghost" data-i18n="bot.clear">Xoa lich su</button>
+      <button id="iqZalo" type="button" class="iq-action iq-action-primary" data-i18n="bot.zalo">Lien he Zalo</button>
+    </div>
+    <div id="iqAdminTools" class="iq-admin-tools" hidden>
+      <button id="iqTestMail" type="button" class="iq-action iq-action-ghost" data-i18n="bot.testMail">Gui test email</button>
+    </div>
+    <div class="iq-contact">
+      <input id="iqName" type="text" autocomplete="name" data-i18n-placeholder="bot.namePh" placeholder="Ten nguoi lien he" />
+      <input id="iqCompany" type="text" autocomplete="organization" data-i18n-placeholder="bot.companyPh" placeholder="Cong ty" />
+      <input id="iqPhone" type="text" autocomplete="tel" data-i18n-placeholder="bot.phonePh" placeholder="So dien thoai" />
+    </div>
+    <p class="iq-footnote" data-i18n="bot.footnote">Khong tim thay thong tin phu hop? Vui long lien he Zalo +84 981 729 869 de duoc tu van chi tiet.</p>
+  </section>
+
   <script src="./js/main.js"></script>
 </body>
 </html>
