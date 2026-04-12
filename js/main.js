@@ -6,6 +6,9 @@
       "top.welcome": "Chào mừng đến với",
       "top.phone": "Điện thoại:",
       "top.zaloAlt": "Mã QR Zalo — HDNS Pro instruments",
+      "top.wechatLabel": "WeChat:",
+      "top.wechatAlt": "Mã QR WeChat — HDNS Pro instruments",
+      "top.whatsappShort": "WhatsApp",
       "brand.tagline": "Chuyên gia máy thử độ cứng — 40 năm tận tâm chất lượng",
       "header.hotline": "Hotline",
       "nav.mainAria": "Chính",
@@ -53,9 +56,18 @@
       "contact.phoneLabel": "Điện thoại",
       "contact.zaloLabel": "Zalo — quét mã để kết bạn",
       "contact.zaloAlt": "Mã QR Zalo HDNS Pro instruments",
-      "contact.hint": "Để báo giá hoặc hỏi model, vui lòng gọi hoặc nhắn Zalo.",
+      "contact.wechatLabel": "WeChat — quét mã để kết bạn",
+      "contact.whatsappLabel": "WhatsApp — cùng số +84 981 729 869",
+      "contact.hint": "Để báo giá hoặc hỏi model, vui lòng gọi, nhắn Zalo / WeChat hoặc WhatsApp.",
       "footer.copyPrefix": "©",
       "footer.copySuffix": "Bảo lưu mọi quyền.",
+      "footer.logoAlt": "HDNS Kelly Instruments — logo thương hiệu",
+      "footer.copyrightCompany":
+        "© 2021–2026 Công ty TNHH Thiết bị chính xác Thượng Hải HDNS (Shanghai HDNS Precision Instruments Co., Ltd.). Mọi quyền được bảo lưu.",
+      "footer.sitemap": "Sơ đồ trang web",
+      "footer.icpPrefix": "Số đăng ký ICP:",
+      "footer.address":
+        "Địa chỉ: Phòng A-109, số 35, hẻm 799 đường Gia Tùng Trung, quận Thanh Phố, Thượng Hải, Trung Quốc",
       "bot.toggle": "Tu van nhanh",
       "bot.title": "Tro ly hoi dap san pham",
       "bot.chipQuote430": "Bao gia SVD-430TS",
@@ -84,6 +96,9 @@
       "top.welcome": "Welcome to",
       "top.phone": "Phone:",
       "top.zaloAlt": "Zalo QR code — HDNS Pro instruments",
+      "top.wechatLabel": "WeChat:",
+      "top.wechatAlt": "WeChat QR code — HDNS Pro instruments",
+      "top.whatsappShort": "WhatsApp",
       "brand.tagline": "Hardness testing specialists — 40 years of quality focus",
       "header.hotline": "Hotline",
       "nav.mainAria": "Main navigation",
@@ -131,9 +146,18 @@
       "contact.phoneLabel": "Phone",
       "contact.zaloLabel": "Zalo — scan to connect",
       "contact.zaloAlt": "Zalo QR code HDNS Pro instruments",
-      "contact.hint": "For quotation or model inquiry, please call or message via Zalo.",
+      "contact.wechatLabel": "WeChat — scan to connect",
+      "contact.whatsappLabel": "WhatsApp — same number +84 981 729 869",
+      "contact.hint": "For quotation or model inquiry, call or message us on Zalo, WeChat, or WhatsApp.",
       "footer.copyPrefix": "©",
       "footer.copySuffix": "All rights reserved.",
+      "footer.logoAlt": "HDNS Kelly Instruments — brand logo",
+      "footer.copyrightCompany":
+        "© 2021–2026 Shanghai HDNS Precision Instruments Co., Ltd. All Rights Reserved.",
+      "footer.sitemap": "Site map",
+      "footer.icpPrefix": "ICP filing No.:",
+      "footer.address":
+        "Address: Room A-109, No. 35, Lane 799, Middle Jiasong Road, Qingpu District, Shanghai, China",
       "bot.toggle": "Quick quote assistant",
       "bot.title": "Product inquiry assistant",
       "bot.chipQuote430": "Quote SVD-430TS",
@@ -155,25 +179,186 @@
       "bot.zaloPrompt": "Zalo is opened. Please send this message for faster support:\n",
       "bot.notifySent": "Your inquiry has been sent to our sales email. We will follow up shortly.",
       "bot.notifyError": "Auto email sending is temporarily unavailable. Please continue via Zalo for immediate support."
+    },
+    zh: {
+      "doc.title": "HDNS Pro instruments | 数显触屏维氏硬度计",
+      "doc.description": "HDNS Pro instruments — 数显触屏维氏硬度计（400 系列）。图片与参数参考 hdnskelly.com TypeId=20 类目。",
+      "top.welcome": "欢迎访问",
+      "top.phone": "电话：",
+      "top.zaloAlt": "Zalo 二维码 — HDNS Pro instruments",
+      "top.wechatLabel": "微信：",
+      "top.wechatAlt": "微信二维码 — HDNS Pro instruments",
+      "top.whatsappShort": "WhatsApp",
+      "brand.tagline": "硬度检测专业方案 — 四十年专注品质",
+      "header.hotline": "热线",
+      "nav.mainAria": "主导航",
+      "nav.home": "首页",
+      "nav.products": "产品",
+      "nav.about": "简介",
+      "nav.contact": "联系我们",
+      "banner.regionAria": "横幅轮播",
+      "banner.prev": "上一张",
+      "banner.next": "下一张",
+      "banner.dots": "选择横幅图片",
+      "banner.dotLabel": "图片 ",
+      "breadcrumb.aria": "面包屑",
+      "breadcrumb.current": "产品分类（对应 TypeId=20 — 数显维氏硬度计）",
+      "sidebar.aria": "产品目录（与来源站对齐）",
+      "sidebar.title": "产品目录",
+      "sidebar.rockwellDigital": "数显洛氏硬度计",
+      "sidebar.microDigital": "数显显微硬度计",
+      "sidebar.vickersTouch": "数显维氏硬度计（触屏）",
+      "sidebar.rockwellTester": "洛氏硬度试验机",
+      "sidebar.dualIndenters": "双压头数显显微硬度计",
+      "sidebar.brinellDigital": "数显布氏硬度计",
+      "sidebar.portable": "便携式硬度计",
+      "sidebar.brv": "布氏–洛氏–维氏硬度计",
+      "sidebar.accessories": "可选配件",
+      "catalog.title": "HDNS Pro instruments — 数显触屏维氏硬度计",
+      "p81.alt": "SVD-430TS 数显触屏维氏硬度计",
+      "p81.name": "SVD-430TS 数显触屏维氏硬度计",
+      "p81.snippet": "触屏数显维氏机型 — 详细参数见产品页。",
+      "p82.alt": "SVD-432TS 数显触屏维氏硬度计，自动转塔",
+      "p82.name": "SVD-432TS 数显触屏维氏硬度计，自动转塔",
+      "p82.snippet": "自动转塔 — 技术细节见子页面。",
+      "p83.alt": "SVD-450TS 数显触屏维氏硬度计",
+      "p83.name": "SVD-450TS 数显触屏维氏硬度计",
+      "p83.snippet": "SVD-450TS 系列 — 厂家原始规格表。",
+      "p84.alt": "SVD-452TS 数显触屏维氏硬度计，自动转塔",
+      "p84.name": "SVD-452TS 数显触屏维氏硬度计，自动转塔",
+      "p84.snippet": "自动转塔 — SVD-452TS。",
+      "p85.alt": "SVD-4052 小负荷数显触屏维氏硬度计，自动转塔",
+      "p85.name": "SVD-4052 小负荷数显触屏维氏硬度计，自动转塔",
+      "p85.snippet": "小负荷维氏 — SVD-4052。",
+      "about.title": "HDNS Pro instruments",
+      "about.body": "本页汇总横幅、标识与参考网站（数显维氏类目）的产品详情，便于越南及全球客户查看原厂图片与规格表。询价/订货请通过电话、Zalo、微信或 WhatsApp 联系。",
+      "contact.title": "联系我们",
+      "contact.phoneLabel": "电话",
+      "contact.zaloLabel": "Zalo — 扫码添加",
+      "contact.zaloAlt": "Zalo 二维码 HDNS Pro instruments",
+      "contact.wechatLabel": "微信 — 扫码添加",
+      "contact.whatsappLabel": "WhatsApp — 同号 +84 981 729 869",
+      "contact.hint": "询价或咨询型号，请致电或通过 Zalo、微信、WhatsApp 留言。",
+      "footer.copyPrefix": "©",
+      "footer.copySuffix": "保留所有权利。",
+      "footer.logoAlt": "哈德尼斯凯利 HDNS Kelly Instruments 标志",
+      "footer.copyrightCompany":
+        "© 2021–2026 上海哈德尼斯精密仪器有限公司 All Rights Reserved.",
+      "footer.sitemap": "网站地图",
+      "footer.icpPrefix": "备案号：",
+      "footer.address": "地址：上海市青浦区嘉松中路799弄35号A-109",
+      "bot.toggle": "快速咨询",
+      "bot.title": "产品问答助手",
+      "bot.chipQuote430": "SVD-430TS 报价",
+      "bot.chipSpec452": "SVD-452TS 参数",
+      "bot.chipLeadTime": "交货期",
+      "bot.chipWarranty": "保修政策",
+      "bot.placeholder": "请输入型号、参数或价格相关问题…",
+      "bot.send": "发送",
+      "bot.clear": "清除记录",
+      "bot.zalo": "Zalo 联系",
+      "bot.namePh": "联系人",
+      "bot.companyPh": "公司",
+      "bot.phonePh": "电话",
+      "bot.testMail": "发送测试邮件",
+      "bot.footnote": "需要更多帮助？请通过 Zalo +84 981 729 869 或微信/WhatsApp 联系我们。",
+      "bot.welcome": "您好，我是 HDNS 产品助手。可咨询型号参数、交货期、保修或索取报价。",
+      "bot.contactFallback": "感谢您的咨询。该问题需销售工程师进一步确认。请通过 Zalo / 微信 / WhatsApp +84 981 729 869 发送型号与用途，我们将在工作时间尽快回复。",
+      "bot.historyCleared": "已清除本浏览器的对话记录。",
+      "bot.zaloPrompt": "已打开 Zalo。请发送以下内容以便快速处理：\n",
+      "bot.notifySent": "您的留言已发送至销售邮箱，我们将尽快跟进。",
+      "bot.notifyError": "自动邮件暂时无法发送，请直接使用 Zalo 或 WhatsApp 联系以获得即时支持。"
     }
   };
 
+  (function mergeSpecPack() {
+    var pack = typeof window.__SPEC_I18N_PACK !== "undefined" ? window.__SPEC_I18N_PACK : null;
+    if (!pack) {
+      return;
+    }
+    ["vi", "en", "zh"].forEach(function (L) {
+      if (!pack[L]) {
+        return;
+      }
+      var src = pack[L];
+      for (var k in src) {
+        if (Object.prototype.hasOwnProperty.call(src, k)) {
+          translations[L][k] = src[k];
+        }
+      }
+    });
+  })();
+
+  function applyPageBundle(lang) {
+    if (lang === "zh-Hans") {
+      lang = "zh";
+    }
+    var pid = document.body.getAttribute("data-page");
+    if (!pid || typeof window.PAGE_I18N === "undefined" || !window.PAGE_I18N[pid]) {
+      return;
+    }
+    var bundle = window.PAGE_I18N[pid][lang] || window.PAGE_I18N[pid].vi;
+    if (!bundle) {
+      return;
+    }
+    if (bundle.docTitle) {
+      document.title = bundle.docTitle;
+    }
+    var meta = document.querySelector('meta[name="description"]');
+    if (meta && bundle.metaDescription) {
+      meta.setAttribute("content", bundle.metaDescription);
+    }
+    Object.keys(bundle).forEach(function (key) {
+      if (key === "docTitle" || key === "metaDescription") {
+        return;
+      }
+      var val = bundle[key];
+      if (typeof val === "undefined" || val === null) {
+        return;
+      }
+      var htmlEls = document.querySelectorAll("[data-page-i18n-html=\"" + key + "\"]");
+      for (var h = 0; h < htmlEls.length; h++) {
+        htmlEls[h].innerHTML = val;
+      }
+      var textEls = document.querySelectorAll("[data-page-i18n=\"" + key + "\"]");
+      for (var te = 0; te < textEls.length; te++) {
+        textEls[te].textContent = val;
+      }
+    });
+  }
+
   function t(lang, key) {
+    if (lang === "zh-Hans") {
+      lang = "zh";
+    }
     var bundle = translations[lang] || translations.vi;
     return bundle[key] || translations.vi[key] || key;
   }
 
+  function uiLang() {
+    var l = document.documentElement.getAttribute("lang") || "vi";
+    if (l === "zh-Hans" || l === "zh") {
+      return "zh";
+    }
+    if (l === "en") {
+      return "en";
+    }
+    return "vi";
+  }
+
   function applyLanguage(lang) {
     var safeLang = translations[lang] ? lang : "vi";
-    document.documentElement.lang = safeLang;
+    document.documentElement.lang = safeLang === "zh" ? "zh-Hans" : safeLang;
 
-    var title = t(safeLang, "doc.title");
-    if (title) {
-      document.title = title;
-    }
-    var desc = document.querySelector('meta[name="description"]');
-    if (desc) {
-      desc.setAttribute("content", t(safeLang, "doc.description"));
+    if (document.documentElement.hasAttribute("data-i18n-doc")) {
+      var title = t(safeLang, "doc.title");
+      if (title) {
+        document.title = title;
+      }
+      var desc = document.querySelector('meta[name="description"]');
+      if (desc) {
+        desc.setAttribute("content", t(safeLang, "doc.description"));
+      }
     }
 
     var textNodes = document.querySelectorAll("[data-i18n]");
@@ -204,6 +389,13 @@
       placeholderNode.setAttribute("placeholder", t(safeLang, placeholderKey));
     }
 
+    var titleAttrNodes = document.querySelectorAll("[data-i18n-title]");
+    for (var ti = 0; ti < titleAttrNodes.length; ti++) {
+      var titleNode = titleAttrNodes[ti];
+      var titleKey = titleNode.getAttribute("data-i18n-title");
+      titleNode.setAttribute("title", t(safeLang, titleKey));
+    }
+
     var dots = document.querySelectorAll(".banner-dot");
     for (var d = 0; d < dots.length; d++) {
       dots[d].setAttribute("aria-label", t(safeLang, "banner.dotLabel") + (d + 1));
@@ -220,6 +412,8 @@
     } catch (e) {
       // ignore storage errors
     }
+
+    applyPageBundle(safeLang);
   }
 
   var currentLang = "vi";
@@ -341,46 +535,77 @@
 
     function botReply(questionRaw) {
       var q = questionRaw.toLowerCase();
-      var lang = document.documentElement.lang === "en" ? "en" : "vi";
+      var lang = uiLang();
 
       if (q.indexOf("svd-430") >= 0 || q.indexOf("430ts") >= 0) {
-        return lang === "en"
-          ? specByModel["svd-430ts"] + "\nFor quotation, please share quantity and destination city. Typical business reply includes unit price, accessories, lead time, and warranty terms."
-          : "Model SVD-430TS: may Vickers so man hinh cam ung (thap tieu chuan).\nDe bao gia chuan, vui long cho biet so luong va thanh pho giao hang. Chung toi se phan hoi theo mau chuyen nghiep: don gia, phu kien, lead time, bao hanh.";
+        if (lang === "en") {
+          return specByModel["svd-430ts"] + "\nFor quotation, please share quantity and destination city. Typical business reply includes unit price, accessories, lead time, and warranty terms.";
+        }
+        if (lang === "zh") {
+          return "SVD-430TS：数显触屏维氏硬度计（标准转塔）。\n询价请提供数量与收货城市，我们将回复单价、配件、交期与保修等正式商务信息。";
+        }
+        return "Model SVD-430TS: may Vickers so man hinh cam ung (thap tieu chuan).\nDe bao gia chuan, vui long cho biet so luong va thanh pho giao hang. Chung toi se phan hoi theo mau chuyen nghiep: don gia, phu kien, lead time, bao hanh.";
       }
       if (q.indexOf("svd-432") >= 0 || q.indexOf("432ts") >= 0) {
-        return lang === "en"
-          ? specByModel["svd-432ts"] + "\nSuitable when you need faster repetitive testing with automatic turret switching."
-          : "Model SVD-432TS: Vickers so man hinh cam ung, thap xoay tu dong.\nPhu hop khi can do lap lai nhanh va tu dong chuyen vi tri do.";
+        if (lang === "en") {
+          return specByModel["svd-432ts"] + "\nSuitable when you need faster repetitive testing with automatic turret switching.";
+        }
+        if (lang === "zh") {
+          return "SVD-432TS：数显触屏维氏硬度计，自动转塔。\n适合需要快速重复测试、自动切换压头工位的场景。";
+        }
+        return "Model SVD-432TS: Vickers so man hinh cam ung, thap xoay tu dong.\nPhu hop khi can do lap lai nhanh va tu dong chuyen vi tri do.";
       }
       if (q.indexOf("svd-452") >= 0 || q.indexOf("452ts") >= 0) {
-        return lang === "en"
-          ? specByModel["svd-452ts"] + "\nPlease provide sample material range so we can recommend the right load configuration."
-          : "Model SVD-452TS: Vickers so man hinh cam ung, thap xoay tu dong, muc tu dong hoa cao.\nVui long cung cap dai vat lieu mau de chung toi de xuat cau hinh tai trong phu hop.";
+        if (lang === "en") {
+          return specByModel["svd-452ts"] + "\nPlease provide sample material range so we can recommend the right load configuration.";
+        }
+        if (lang === "zh") {
+          return "SVD-452TS：数显触屏维氏硬度计，自动转塔，自动化程度更高。\n请提供样品材料范围，以便推荐合适的试验力配置。";
+        }
+        return "Model SVD-452TS: Vickers so man hinh cam ung, thap xoay tu dong, muc tu dong hoa cao.\nVui long cung cap dai vat lieu mau de chung toi de xuat cau hinh tai trong phu hop.";
       }
-      if (q.indexOf("lead time") >= 0 || q.indexOf("giao hang") >= 0 || q.indexOf("thoi gian") >= 0) {
-        return lang === "en"
-          ? "Standard lead time is usually confirmed after model and quantity check. Typical professional quote includes: ex-stock availability, production lead time, and shipping schedule by destination."
-          : "Thoi gian giao hang duoc xac nhan sau khi chot model va so luong. Theo mau bao gia chuyen nghiep, chung toi se gui ro: hang co san, thoi gian san xuat bo sung, va lich van chuyen theo diem den.";
+      if (q.indexOf("lead time") >= 0 || q.indexOf("giao hang") >= 0 || q.indexOf("thoi gian") >= 0 || q.indexOf("交货") >= 0 || q.indexOf("交期") >= 0) {
+        if (lang === "en") {
+          return "Standard lead time is usually confirmed after model and quantity check. Typical professional quote includes: ex-stock availability, production lead time, and shipping schedule by destination.";
+        }
+        if (lang === "zh") {
+          return "交期一般在确认型号与数量后确定。正式报价中会说明：现货情况、生产补货周期以及按目的地的发运安排。";
+        }
+        return "Thoi gian giao hang duoc xac nhan sau khi chot model va so luong. Theo mau bao gia chuyen nghiep, chung toi se gui ro: hang co san, thoi gian san xuat bo sung, va lich van chuyen theo diem den.";
       }
-      if (q.indexOf("warranty") >= 0 || q.indexOf("bao hanh") >= 0) {
-        return lang === "en"
-          ? "Warranty terms are supplied in the formal quotation, including warranty period, covered parts, and remote/on-site support scope."
-          : "Dieu kien bao hanh se duoc neu ro trong bao gia chinh thuc, gom thoi han bao hanh, pham vi linh kien, va ho tro tu xa/ho tro tai cho.";
+      if (q.indexOf("warranty") >= 0 || q.indexOf("bao hanh") >= 0 || q.indexOf("保修") >= 0) {
+        if (lang === "en") {
+          return "Warranty terms are supplied in the formal quotation, including warranty period, covered parts, and remote/on-site support scope.";
+        }
+        if (lang === "zh") {
+          return "保修条款将在正式报价中列明，包括保修期限、覆盖部件范围以及远程/现场支持方式。";
+        }
+        return "Dieu kien bao hanh se duoc neu ro trong bao gia chinh thuc, gom thoi han bao hanh, pham vi linh kien, va ho tro tu xa/ho tro tai cho.";
       }
-      if (q.indexOf("price") >= 0 || q.indexOf("bao gia") >= 0 || q.indexOf("gia") >= 0) {
-        return lang === "en"
-          ? "To prepare an accurate quotation, please share model, quantity, application, and destination city. We will return a professional inquiry reply with unit price, accessories list, lead time, payment terms, and warranty."
-          : "De bao gia chinh xac, vui long gui model, so luong, ung dung va dia diem giao. Chung toi se phan hoi theo mau chuyen nghiep: don gia, danh sach phu kien, thoi gian giao hang, dieu kien thanh toan, va bao hanh.";
+      if (q.indexOf("price") >= 0 || q.indexOf("bao gia") >= 0 || q.indexOf("gia") >= 0 || q.indexOf("报价") >= 0 || q.indexOf("价格") >= 0 || q.indexOf("询价") >= 0) {
+        if (lang === "en") {
+          return "To prepare an accurate quotation, please share model, quantity, application, and destination city. We will return a professional inquiry reply with unit price, accessories list, lead time, payment terms, and warranty.";
+        }
+        if (lang === "zh") {
+          return "为提供准确报价，请说明型号、数量、应用场景与收货城市。我们将回复单价、配件清单、交期、付款方式与保修等完整商务信息。";
+        }
+        return "De bao gia chinh xac, vui long gui model, so luong, ung dung va dia diem giao. Chung toi se phan hoi theo mau chuyen nghiep: don gia, danh sach phu kien, thoi gian giao hang, dieu kien thanh toan, va bao hanh.";
       }
       return t(lang, "bot.contactFallback");
     }
 
     function buildInquiryPayload(lang) {
-      var leadName = nameInput.value.trim() || (lang === "en" ? "N/A" : "Chua cung cap");
-      var leadCompany = companyInput.value.trim() || (lang === "en" ? "N/A" : "Chua cung cap");
-      var leadPhone = phoneInput.value.trim() || (lang === "en" ? "N/A" : "Chua cung cap");
-      var userBrief = lastUserQuestion ? lastUserQuestion : (lang === "en" ? "Need support for model selection and quotation." : "Can tu van model va bao gia.");
+      var na = lang === "en" ? "N/A" : lang === "zh" ? "未提供" : "Chua cung cap";
+      var leadName = nameInput.value.trim() || na;
+      var leadCompany = companyInput.value.trim() || na;
+      var leadPhone = phoneInput.value.trim() || na;
+      var userBrief = lastUserQuestion
+        ? lastUserQuestion
+        : lang === "en"
+          ? "Need support for model selection and quotation."
+          : lang === "zh"
+            ? "需要型号选型与报价支持。"
+            : "Can tu van model va bao gia.";
       return {
         question: userBrief,
         name: leadName,
@@ -461,7 +686,7 @@
       panel.hidden = false;
       toggle.setAttribute("aria-expanded", "true");
       if (!messages.dataset.inited) {
-        pushMessage(t(document.documentElement.lang === "en" ? "en" : "vi", "bot.welcome"), "bot");
+        pushMessage(t(uiLang(), "bot.welcome"), "bot");
         messages.dataset.inited = "1";
       }
       input.focus();
@@ -490,7 +715,7 @@
       pushMessage(q, "user");
       pushMessage(botReply(q), "bot");
       if (q.length >= 10) {
-        var lang = document.documentElement.lang === "en" ? "en" : "vi";
+        var lang = uiLang();
         sendInquiryEmail(buildInquiryPayload(lang), lang, true);
       }
       input.value = "";
@@ -512,7 +737,7 @@
       pushMessage(q, "user");
       pushMessage(botReply(q), "bot");
       if (q.length >= 10) {
-        var lang = document.documentElement.lang === "en" ? "en" : "vi";
+        var lang = uiLang();
         sendInquiryEmail(buildInquiryPayload(lang), lang, true);
       }
     });
@@ -526,11 +751,11 @@
       phoneInput.value = "";
       saveHistory();
       delete messages.dataset.inited;
-      pushMessage(t(document.documentElement.lang === "en" ? "en" : "vi", "bot.historyCleared"), "bot");
+      pushMessage(t(uiLang(), "bot.historyCleared"), "bot");
     });
 
     zaloBtn.addEventListener("click", function () {
-      var lang = document.documentElement.lang === "en" ? "en" : "vi";
+      var lang = uiLang();
       var payload = buildInquiryPayload(lang);
       var payloadStr = payloadText(payload);
       var zaloUrl = "https://zalo.me/84981729869?text=" + encodeURIComponent(payloadStr);
@@ -560,12 +785,15 @@
     }
 
     testMailBtn.addEventListener("click", function () {
-      var lang = document.documentElement.lang === "en" ? "en" : "vi";
+      var lang = uiLang();
       var payload = buildInquiryPayload(lang);
       if (!lastUserQuestion) {
-        payload.question = lang === "en"
-          ? "Test inquiry email from admin button."
-          : "Test email thong bao tu nut quan tri.";
+        payload.question =
+          lang === "en"
+            ? "Test inquiry email from admin button."
+            : lang === "zh"
+              ? "来自管理测试按钮的测试询价邮件。"
+              : "Test email thong bao tu nut quan tri.";
       }
       sendInquiryEmail(payload, lang, false);
     });
@@ -579,12 +807,14 @@
   var dotsWrap = document.querySelector("#bannerDots");
 
   if (!viewport || !track || !prevBtn || !nextBtn) {
+    applyLanguage(currentLang);
     return;
   }
 
   var slides = track.querySelectorAll(".banner-slide");
   var n = slides.length;
   if (n === 0) {
+    applyLanguage(currentLang);
     return;
   }
 
